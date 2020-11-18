@@ -15,6 +15,9 @@ export const App = () => {
         <Route exact path="/">
           <Home />
         </Route>
+        <Route exact path="/contact">
+          <Home />
+        </Route>
         <Route path="/lobby">
           <Lobby />
         </Route>
