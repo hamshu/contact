@@ -1,4 +1,3 @@
-import classes from "*.module.css";
 import { Button, Grid, GridList, GridListTile, Paper } from "@material-ui/core";
 import * as React from "react";
 import { Link, useLocation } from "react-router-dom";

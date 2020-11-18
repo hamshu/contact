@@ -10,7 +10,7 @@ import Waiting from "./components/Waiting";
 interface IGameProps {}
 
 const Game: React.FunctionComponent<IGameProps> = (props) => {
-  const [sState, setState] = React.useState("pick");
+  const [sState, setState] = React.useState("guess");
 
   React.useEffect(() => {
     // Set State here based on firebase state
